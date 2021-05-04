@@ -223,11 +223,11 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .progress-bar-warning
 {
-    background-color: red !important;
+    background-color: rgb(255,0,0) !important;
 }
 .progress-bar-danger
 {
-    background-color: purple !important;
+    background-color: rgb(128,0,128) !important;
 }
 
 /*Personal Projects*/
