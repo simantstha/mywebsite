@@ -96,8 +96,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 .description p{
 	color:#666;
-	font-size: 20px;
-	width: 50%;
+	font-size: 40px;
 	line-height: 1.5;
 }
 .divider {
@@ -136,7 +135,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 	margin: 2em;
 }
 .about img{
-	height: 100%;
+	height: 80%;
     width: 100%;
     border-radius: 50%
 }
@@ -156,7 +155,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 .about .desc p{
 	line-height:2;
 	color:#888;
-    font-size: 15px;
+    font-size:20px;
 }
 
 /*Education style*/
@@ -196,11 +195,11 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 .education img{
     position: relative;
-    top:4em;
-    left:150px;
+    top:6em;
+    left:7em;
     border-radius: 200px;
-    height:500px;
-    width: 500px;
+    height:400px;
+    width: 400px;
 }
 
 /*Workexp style*/
@@ -242,10 +241,10 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 .workexp img{
     position: relative;
     top:2em;
-    left:150px;
+    left:5em;
     border-radius: 200px;
-    height:500px;
-    width: 600px;
+    height:400px;
+    width: 500px;
 }
 /*Skill style*/
 .skills{
@@ -302,7 +301,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
     height: 100%;
     background:#f973007d;
     position: absolute;
-    width: 100%;
+    width: 89%;
     padding: 5em;
     top: 0;
     border-bottom-left-radius: 0;
@@ -320,6 +319,29 @@ html,h1,h2,h3,h4,h5,h6,a,p{
     text-align: center;
 }
 
+.resume .sketchy {
+    padding: 1rem 1rem;
+    display: inline-block;
+    border: 3px solid #333;
+    font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #fff;
+    position: relative;
+}
+.resume .sketchy::before {
+    content: '';
+    border: 2px solid #353535;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+}
 
 .resume button{
     border:1px  solid #F97300;
