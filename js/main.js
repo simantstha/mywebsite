@@ -9,3 +9,15 @@ $(document).ready(function(){
             scrollTop:$("#" + $(this).data('value')).offset().top
             },1000)});
    });
+   $(function(){
+
+    var url = window.location.href; 
+
+    $("#menu a").each(function() {
+
+        if(url == (this.href)) { 
+            $(this).closest("li").addClass("active");
+        }
+    });
+
+});
