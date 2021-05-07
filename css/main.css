@@ -151,6 +151,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 .about .desc h3{
 	color: #10828C;
+	font-size:3em;
 }
 .about .desc p{
 	line-height:2;
