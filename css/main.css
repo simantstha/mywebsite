@@ -125,7 +125,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 
 /*about style*/
 .about{
-	margin: 2em 0;
+	margin: 0 0em 4em 0;
 	padding: 1em;
 	position: relative;
     font-family:"Acme";
@@ -135,7 +135,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 	margin: 2em;
 }
 .about img{
-    height: auto;
+	height: auto;
     max-width: 100%;
     border-radius: 50%
 }
@@ -151,7 +151,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 .about .desc h3{
 	color: #10828C;
-	font-size:3em;
+    font-size: 3em;
 }
 .about .desc p{
 	line-height:2;
@@ -161,7 +161,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 
 /*Education style*/
 .education{
-	margin: 4em 0;
+	margin: 0em 0em 4em 0;
 	padding: 1em;
 	position: relative;
     font-family:"Acme";
@@ -205,8 +205,8 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 
 /*Workexp style*/
 .workexp{
-	margin: 4em 0;
-	padding: 1em;
+	margin: 0em 0em 4em 0;
+	padding: 0em;
 	position: relative;
     font-family:"Acme";
 }
@@ -249,8 +249,8 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 /*Skill style*/
 .skills{
-	margin: 4em 0;
-	padding: 4em;
+	margin: 0em 0em 4em 0;
+	padding: 0em;
 	position: relative;
     font-family:"Acme";
 }
@@ -309,7 +309,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 
 .resume{
-	margin:auto;
+	margin: 0em 0em 4em 0;
 	padding: 1em;
 	position: relative;
     font-family:"Acme";
@@ -362,8 +362,31 @@ html,h1,h2,h3,h4,h5,h6,a,p{
     font-family:"Acme";
     
   }
-
-  
+.pictures{
+	margin: 0em 0em 4em 0;
+	padding: 1em;
+	position: relative;
+    font-family:"Acme";
+}
+.pictures h1{
+	color:#F97300;
+	margin: 2em;
+    text-align: center;
+}
+.pictures .row {
+    margin: 15px;
+  }
+.pictures .item{
+    transition: .3s ease-in-out;
+}
+.pictures .item:hover
+{
+    filter: brightness(80%);
+}
+.pictures img{
+    border-radius: 3%;
+    box-shadow: 5px 5px #F97300;
+}
   .footer-basic .social {
     text-align:center;
     padding-bottom:25px;

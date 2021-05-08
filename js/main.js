@@ -19,5 +19,4 @@ $(document).ready(function(){
             $(this).closest("li").addClass("active");
         }
     });
-
 });
