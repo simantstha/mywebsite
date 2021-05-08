@@ -14,11 +14,12 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 .nav-link , .navbar-brand{
 	color: #f4f4f4;
 	cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
 }
 .navbar-brand:hover
 {
     color:black;
+    text-decoration: underline;
 }
 .nav-link{
 	margin-right: 1em !important;
@@ -33,6 +34,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 .navbar-toggler{
   background:#fff !important;
 }
+
 
 /*header style*/
 .header{
@@ -266,7 +268,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 /*Personal Projects*/
 .portfolio{
-    margin-left: 10px;
+    margin:4em 0;
     position: relative; 
     font-family:"Acme";
 }
@@ -280,32 +282,25 @@ html,h1,h2,h3,h4,h5,h6,a,p{
      margin: 2em;
      
    }
-
-
 .portfolio .item{
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
 }
 .portfolio .des{
     background: #F97300;
     color: #fff;
     text-align: center;
     border-bottom-left-radius:99px;
+    border-top-left-radius:99px;
     transition:.3s ease-in-out;
-    position:absolute;
-    width:100%;
+    position:relative;
+    width:107%;
     font-size:20px;
     bottom: 24px;
     
    }
-.portfolio .item:hover .des{
-    height: 100%;
-    background:#f973007d;
-    position: absolute;
-    width: 89%;
-    padding: 5em;
-    top: 0;
-    border-bottom-left-radius: 0;
+.portfolio img:hover{
+    filter: brightness(50%);
 }
 
 .resume{
@@ -381,7 +376,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 }
 .pictures .item:hover
 {
-    filter: brightness(80%);
+    filter: brightness(50%);
 }
 .pictures img{
     border-radius: 3%;
